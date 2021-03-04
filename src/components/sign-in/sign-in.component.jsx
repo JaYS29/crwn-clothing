@@ -50,7 +50,7 @@ class SignIn extends React.Component {
             label="email"
             value={this.state.email}
             handleChange={this.handleChange}
-            autoComplete="off"
+            autoComplete="on"
             required
           />
           <FormInput
